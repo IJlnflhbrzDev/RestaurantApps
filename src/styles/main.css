@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #19182c;
+  font-family: sans-serif;
+}
+
+/*
+     Navbar Restaurant
+*/
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #262633;
+  padding: 30px 15px;
+}
+
+.nav-brand {
+  font-family: "Satisfy", cursive;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.nav-menu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.nav-menu li {
+  list-style-type: none;
+}
+
+.nav-menu li a {
+  font-size: 25px;
+  padding: 1.3em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-menu li a:hover {
+  text-decoration: underline;
+}
+
+/*
+   styles Header
+*/
+.header {
+  width: 100%;
+  height: 80vh;
+}
+
+.header-img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+/*# sourceMappingURL=main.css.map */
