@@ -53,8 +53,9 @@ span {
   }
   nav.nav-container #nav-drawwer {
     display: block;
+    font-size: 33px;
+    width: 44px;
     color: #fff;
-    font-size: larger;
     cursor: pointer;
   }
   nav.nav-container .show-menu-mobile {

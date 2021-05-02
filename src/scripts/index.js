@@ -19,15 +19,15 @@ handle_drawwer.addEventListener("click", function () {
 function CardHtml(resto) {
      return `
      <article>
-                    <div class="card" tabindex="0">
-                         <img src="${resto.pictureId}"  class="card-img" alt=${resto.name} tabindex="0">
+                    <div class="card">
+                         <img src="${resto.pictureId}"  class="card-img" alt=${resto.name}>
                          <div class="card-lokasi">
-                              <h3 tabindex="0">Kota,${resto.city}</h3>
+                              <h3>Kota,${resto.city}</h3>
                          </div>
                          <div class="card-body">
-                              <h4 class="card-rating" tabindex="0">Rating ${resto.rating}</h4>
-                              <h5 class="card-title" tabindex="0">${resto.name}</h5>
-                              <p class="card-text" tabindex="0">${resto.description}</p>
+                              <h4 class="card-rating">Rating ${resto.rating}</h4>
+                              <h5 class="card-title">${resto.name}</h5>
+                              <p class="card-text">${resto.description}</p>
                          </div>
                     </div>
      </article>
