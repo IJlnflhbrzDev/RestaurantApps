@@ -205,6 +205,8 @@ body {
   background-size: cover;
   -webkit-filter: opacity(0.5);
           filter: opacity(0.5);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .header-heading {
@@ -242,7 +244,7 @@ main {
   padding: 30px 50px;
 }
 
-main h1 {
+main h2 {
   color: #fff;
   margin-bottom: 30px;
 }
@@ -274,6 +276,9 @@ main section article .card {
           flex-direction: column;
   position: relative;
   border-radius: 0.25rem;
+  max-width: 500px;
+  max-height: 400px;
+  overflow: hidden;
 }
 
 main section article .card:focus {
@@ -322,6 +327,8 @@ main section article .card-body h4 {
 }
 
 main section article .card-body h5 a {
+  display: inline-block;
+  line-height: 44px;
   font-size: 17px;
   margin-bottom: 7px;
   color: #fff;

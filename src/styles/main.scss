@@ -79,6 +79,7 @@ body {
     background-position: center;
     background-size: cover;
     filter: opacity(0.5);
+    object-fit: cover;
   }
   &-heading {
     position: absolute;
@@ -104,7 +105,7 @@ main {
   flex-direction: column;
   padding: 30px 50px;
 
-  h1 {
+  h2 {
     color: $white;
     margin-bottom: 30px;
   }
@@ -122,6 +123,9 @@ main {
         flex-direction: column;
         position: relative;
         border-radius: 0.25rem;
+        max-width: 500px;
+        max-height: 400px;
+        overflow: hidden;
 
         &:focus {
           border: 7px dotted gold !important;
@@ -163,6 +167,8 @@ main {
           }
           h5 {
             a {
+              display: inline-block;
+              line-height: 44px;
               font-size: 17px;
               margin-bottom: 7px;
               color: $white;
