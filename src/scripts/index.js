@@ -26,7 +26,7 @@ function CardHtml(resto) {
                          </div>
                          <div class="card-body">
                               <h4 class="card-rating">Rating ${resto.rating}</h4>
-                              <h5 class="card-title">${resto.name}</h5>
+                              <h5 class="card-title"><a href="">${resto.name}</a></h5>
                               <p class="card-text">${resto.description}</p>
                          </div>
                     </div>
